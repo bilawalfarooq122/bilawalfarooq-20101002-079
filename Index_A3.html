@@ -28,22 +28,30 @@
         .display {
             display: flex;
         }
-        .left-column, .middle-column, .right-column {
-            width: 33.33%;
+        .left-column {
+            width: 25%;
             box-sizing: border-box;
-            padding: 10px;
+            padding: 1px;
         }
-        .left-column ul, .middle-column ul, .right-column ul {
-            list-style: none;
-            padding: 0;
+        .middle-column {
+            width: 50%;
+            box-sizing: border-box;
+            padding: auto;
         }
+        .right-column {
+            width: 25%;
+            box-sizing: border-box;
+            padding: auto;
+        }
+       
         .footer {
             
-           
+           position: fixed;
+           bottom: 0%;
             text-align: center;
             background: #333;
             color: white;
-            padding: 10px;
+            padding: 1px;
             width: 100%; 
         }
         .social-icons {
