@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CV</title>
+    <style>
+        body {
+            background: #eed797;
+           
+            
+         
+        }
+        .header{
+        background-color: #333;
+        color: #fff;
+        padding: 2px;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        display: flex;
+        justify-content: space-between; /* Space elements evenly across the header */
+        align-items: center; 
+        margin-bottom: 10px;
+        }
+        
+        h2 {
+            padding-bottom: 5px;
+        }
+        .display {
+            display: flex;
+        }
+        .left-column, .middle-column, .right-column {
+            width: 33.33%;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+        .left-column ul, .middle-column ul, .right-column ul {
+            list-style: none;
+            padding: 0;
+        }
+        .footer {
+            
+           
+            text-align: center;
+            background: #333;
+            color: white;
+            padding: 10px;
+            width: 100%; 
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+        }
+        .social-icon {
+            margin: 0 10px;
+        }
+        .whatsapp-button {
+    display: inline-block;
+    background-color: #25D366;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+.whatsapp-button:hover {
+  background-color: #128C7E;
+}
+        .footer .social-icons img:last-child {
+            margin-right: 0;
+        }
+        @media (max-width: 720px) {
+            .display {
+                flex-direction: column;
+            }
+            .left-column, .middle-column, .right-column {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        
+            <h1>Bilawal farooq</h1>
+    </header>
+
+
+    <div class="display">
+        <div class="left-column">
+            <h2>Professional Skills</h2>
+            <ul>
+                <li>Graphic Designing</li>
+                <li>SEO</li>
+                <li>Social Media Marketing</li>
+            </ul>
+            <table border="2px" style="border-collapse: collapse;">
+                
+                <tr style="color: rgb(0, 0, 0); font-size: 25px;">
+                    <th>Insitute</th>
+                    <th>Programe</th>
+                    <th>Year</th>
+                  </tr>
+                  <tr style="text-align:left; font-size: 20px;">
+                    <td>Qila Ahmed Abad High School</td>
+                    <td>Matric </td>
+                    <td>2017</td>
+                  </tr>
+                  <tr style="text-align:left ;font-size: 20px;">
+                    <td>ELC</td>
+                    <td>MS Office Expert</td>
+                    <td>2021</td>
+                  </tr>
+                  <tr style="text-align:left ;font-size: 20px;">
+                    <td>Global Tech</td>
+                    <td>Graphic Designing</td>
+                    <td>2022</td>
+                  </tr>
+                  </tr>
+                  <tr style="text-align:left ;font-size: 20px;">
+                    <td>PGC</td>
+                    <td>Inter</td>
+                    <td>2020</td>
+                  </tr> 
+                  <tr style="text-align:left ;font-size: 20px;">
+                    <td>USKT</td>
+                    <td>BS-computer Science</td>
+                    <td>2024</td>
+                  </tr>
+            </table>
+        </div>
+        <div class="middle-column">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <img src="image/my.jpg"  height="100" width="100" style="float: right;">
+                    <h4>Shop Management System</h4>
+                    <p>I created a simple shop management system where shop owners can update, delete, or manage their items. Customers can also place orders using this system.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="right-column">
+           
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Coin Collection</li>
+                <li>Gaming</li>
+                <li>Traveling</li>
+                <li>Watching TV Shows</li>
+            </ul>
+            <a href="https://wa.me/03046928834" class="whatsapp-button" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+            </a>
+
+        </div>
+    </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <div class="footer">
+        <p>Name: Bilawal Farooq</p>
+        <p>Email: bilawal829@gmail.com</p>
+        <ul class="social-icons">
+            <li class="social-icon">
+                <i class="fa-brands fa-facebook"></i>
+            </li>
+            <li class="social-icon">
+                <i class="fa-brands fa-instagram"></i>
+            </li>
+            <li class="social-icon">
+                <i class="fa-brands fa-linkedin"></i>
+            </li>
+            <li class="social-icon">
+                <i class="fa-brands fa-github"></i>
+            </li>
+            <li class="social-icon">
+                <i class="fa-brands fa-whatsapp"></i>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
